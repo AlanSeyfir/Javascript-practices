@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(rgb(136, 208, 218), rgb(95, 194, 201));
+}
+
+#quote{
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Make my background transparent*/
+
+#quote::after{
+    content: "";
+    background: #000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40%;
+    width: 100%;
+    /*Same as the #quote*/
+    margin-top: 100px;
+    z-index: -1;
+    opacity: .4;
+}
+
+button{
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 50px;
+    widows: 150px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 6px #000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button:active{
+    opacity: 0.75;
+}
