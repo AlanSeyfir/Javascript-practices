@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.jumbotron{
+    padding: 30px;
+}
+
+.text-giant{
+    font-size: 40px;
+}
