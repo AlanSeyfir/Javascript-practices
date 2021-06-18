@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.timer{
+    font-size: 120px;
+}
+
+.jumbotron{
+    padding: 30px;
+}
