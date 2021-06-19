@@ -1,0 +1,25 @@
+body, .jumbotron{
+    padding: 30px;
+}
+
+body{
+    background: #eee;
+}
+
+.content{
+    background: white;
+    padding: 50px;
+    font-size: 19px;
+    line-height: 1.5;
+    min-height: 3000px;
+}
+
+.scroll-line{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: yellowgreen;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) width;
+}
